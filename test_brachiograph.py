@@ -57,8 +57,8 @@ def test_maths_errors():
 
 def test_linedraw_to_plot():
     linedraw.image_to_json(
-        "../test-patterns/test_pattern", resolution=1024,
+        "../test-patterns/Test_image", resolution=1024,
         draw_contours=10, repeat_contours=1,
         draw_hatch=32, repeat_hatch=1,
         )
-    virtual_bg.plot_file("images/test_gradient.json")
+    virtual_bg.plot_file("test-patterns/Test_image.json")
